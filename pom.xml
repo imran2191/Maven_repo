@@ -30,12 +30,12 @@
   </build>
   <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>Veridic_release</id>
             <name>Internal Releases</name>
             <url>http://54.175.142.41:8081/repository/Veridic_release/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>Veridic_snapshot</id>
             <name>Internal Snapshot Releases</name>
             <url>http://54.175.142.41:8081/repository/Veridic_snapshot/</url>
         </snapshotRepository>
