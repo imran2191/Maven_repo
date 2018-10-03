@@ -28,4 +28,17 @@
   <build>
     <finalName>Maven_Web_App</finalName>
   </build>
+  <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://54.175.142.41:8081/repository/Veridic_release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://54.175.142.41:8081/repository/Veridic_snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+  
 </project>
